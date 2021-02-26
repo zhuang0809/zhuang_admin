@@ -113,10 +113,43 @@ nav{
 /* 企业荣誉 */
 .company{
     height: 70px;
-    margin: 50px 0 30px 0;
+    margin: 50px auto 0px;
 }
 .company_conten{
     height: 264px;
+    overflow: hidden;  
+    margin-bottom: 50px;
+    position: relative;
+}
+.content_wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+}
+.imgwrap{
+    width: 310px;
+    height: 210px;
+    box-sizing: border-box;
+    margin: 0 12px;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+    padding: 4px;
+}
+.imgwrap:hover{
+    border: 4px solid rgb(189, 48, 48);
+}
+
+.name{
+    font-size: 1.3em;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+}
+.swiper-container3,.swiper-container4{
+    width: 100%;
+    height: 100%;
 }
 /* 代加工 */
 .processwrap{
@@ -157,4 +190,52 @@ h3{
     width: 90px;
     line-height: 36px;
     border: 1px solid #19903b;
+}
+/* 产品展示 */
+.product{
+    height: 280px;
+}
+.product_type{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.product_item{
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 1.3em;
+    border: 1px solid green;
+    margin:0 20px;
+}
+.product_item:hover{
+    color: #fff;
+    background: green;
+}
+.product_img{
+    width: 230px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0 12px;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+    padding: 4px;
+}
+.product_img:hover{
+    border: 1px solid rgb(189, 48, 48);
+}
+/* foot */
+.foot,.foot_conten{
+    height: 200px;
+    background: #f7f2ec;
+}
+/* footer */
+footer{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #f4f4f4;
+    background: black;
+    color: #fff;
 }
