@@ -55,8 +55,19 @@ var mySwiper4 = new Swiper('.swiper-container4', {
         disableOnInteraction: false,
     },
 }) 
-// 企业荣誉
-$(function(){
-    var box = $(".content_wrap")
+// 点击导航栏
 
-})
+// (function (a,b){ console.log(a+b, '111') })(2,3);
+
+// (function fun2(a,b){ console.log(a+b,'222') }(3,4))
+
+// !function fun3(a,b){ console.log(a+b,'333') }(4,5)
+
+var a = 10;
+(function () {
+    console.log(a)
+    a = 5
+    console.log(window.a)
+    var a = 20;
+    console.log(a)
+})()
